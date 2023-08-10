@@ -1,7 +1,6 @@
-import "./App.css"
 import { useEffect, useState } from "react"
 
-const App = () => {
+const PreventClick = () => {
   const [image, setImage] = useState(null)
   const [clicks, setClicks] = useState(0)
   useEffect(() => {
@@ -33,4 +32,4 @@ const App = () => {
   )
 }
 
-export default App
+export default PreventClick
